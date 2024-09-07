@@ -1,0 +1,18 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "playwright-test-ui" : "npx playwright test --ui",
+      "playwright-test-headless":"npx playwright test "
+  },
+  "keywords": [],
+  "author": "Ranjana Arya",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4"
+  }
+}
